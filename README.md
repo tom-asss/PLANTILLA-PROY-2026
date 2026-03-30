@@ -1,4 +1,4 @@
-# PROY-2026-GRUPOX
+# PROY-2026-GRUPO 1
 
 Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial (IWG400)* – 2026.
 
@@ -6,10 +6,9 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 
 | Nombre y Apellido | Usuario GitHub | Correo USM               | Rol USM      |
 | ----------------- | -------------- | ------------------------ | ------------ |
-| Nombre1 Apellido1 | @usuario1      | nombre1.apellido1@usm.cl | 200000000000 |
-| Nombre2 Apellido2 | @usuario2      | nombre2.apellido2@usm.cl | 200000000000 |
-| Nombre3 Apellido3 | @usuario3      | nombre3.apellido3@usm.cl | 200000000000 |
-| Nombre4 Apellido4 | @usuario4      | nombre4.apellido4@usm.cl | 200000000000 |
+| Antonella Zavala  | @antoinsana    | azavalao@usm.cl          |202630007-2   |
+| Fernanda Cisternas| @ferpou        | fcisternas@usm.cl        |202630033-1   |
+| Tomás Farías      | @tom-asss      | tfariasp@usm.cl          |202630004-8   |
 
 ## 📝 Descripción breve del proyecto
 
