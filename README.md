@@ -1,14 +1,14 @@
 # PROY-2026-GRUPO 1
 
-Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial (IWG400)* – 2026.
+Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* – 2026.
 
 ## 👥 Integrantes del grupo
 
 | Nombre y Apellido | Usuario GitHub | Correo USM               | Rol USM      |
 | ----------------- | -------------- | ------------------------ | ------------ |
-| Antonella Zavala  | @antoinsana    | azavalao@usm.cl          |202630007-2   |
-| Fernanda Cisternas| @ferpou        | fcisternas@usm.cl        |202630033-1   |
-| Tomás Farías      | @tom-asss      | tfariasp@usm.cl          |202630004-8   |
+| Antonella Zavala  | @antoinsana    | azavalao@usm.cl          | 202630007-2  |
+| Fernanda Cisternas| @ferpou        | fcisternas@usm.cl        | 202630033-1  |
+| Tomás Farías      | @tom-asss      | tfariasp@usm.cl          | 202630004-8  |
 
 ## 📝 Descripción breve del proyecto
 
@@ -19,9 +19,9 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 ## 🎯 Objetivos
 
 - Objetivo general:
-  - *Describir el objetivo principal del proyecto.*
+  - Crear un asistente completo de estudio, que permita al usuario optimizar sus sesiones de estudio sin distracciones.
 - Objetivos específicos:
-  - *Listar objetivos concretos que permitirán alcanzar el objetivo general.*
+  - Implementar funciones específicas al asistente, como bloqueo de páginas, ventanas y programas; ejecución automática de programas pertinentes para estudiar   
 
 ---
 
