@@ -12,7 +12,8 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial (IWG400)* 鈥
 
 ## 馃摑 Descripci贸n breve del proyecto
 
-> *Aqu铆 va una descripci贸n general del proyecto, incluyendo su prop贸sito, contexto dentro del curso y motivaci贸n.*
+> *B.R.U.N.E:(Buen Rendimiento Acad茅mico, No Excusas), un programa el cual te ayudar谩 a estudiar sin reestricciones,
+> .*
 
 ---
 
