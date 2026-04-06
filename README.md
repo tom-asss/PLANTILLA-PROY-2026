@@ -19,9 +19,12 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 ## 🎯 Objetivos
 
 - Objetivo general:
-  Creación de un programa que permita bloquear ventanas y programas ...
+  Creación de un programa que permita bloquear ventanas y programas a la hora de estudiar, además de monitorear pulso cardíaco, de estrés y somnolencia.
 - Objetivos específicos:
-  - *Listar objetivos concretos que permitirán alcanzar el objetivo general.*
+  -Creación de software que bloquee ventanas y programas.
+  -Conexión de sensores de pulso cardíaco y sensor de respuesta galvánica de la piel, que midan niveles de estrés y somnolencia. Estará conectado al programa y notificará en caso de detectar niveles alterados.
+  -Implementar monitoreo de somnolencia a través de una webcam, que en caso de percibir que los ojos se estén cerrando, mande una señal de alerta para despertar al usuario.
+  -Vinculación del software a distintas páginas y aplicaciones asignadas por el usuario.
 
 ---
 
@@ -34,10 +37,10 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 - Lenguaje(s) de programación:
-  - Ej: Python, JavaScript, C++
+  - C++
 - Microcontroladores
-  - Arduino UNO Q, ESP32
-- Sensores
+  - Arduino UNO Q
+  - Sensores de pulso cardíaco, sensor de respuesta galvánica de la piel, buzzer.
 
 ---
 
