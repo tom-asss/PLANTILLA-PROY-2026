@@ -30,7 +30,7 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 
 ## 🧩 Alcance del proyecto
 
-> *Definir qué aspectos cubre el proyecto y qué queda fuera del alcance (limitaciones).*
+> El alcanze del proyecto a futuro es que que se pueda ir mejorando los sensores para que sean mas presisos, y  los limites son el conocimiento que tenemos ya que no sabemos de programacion, el sensor a ser pequeño no es tan preciso y el Timpo nos queda muy corto.  
 
 ---
 
