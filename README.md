@@ -30,7 +30,7 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 
 ## 🧩 Alcance del proyecto
 
-> El proyecto a futuro, busca mejorar la precisión de los sensores. Sin embargo,nuestras limitaciónes son nuestro conocimiento en programación, otro limite que tenemos es el sensor de pulso cardíaco debido a su tamaño, no tiene una lata precisión y el tiempo que tenemos podría ser insuficiente para lograr todos nuestros objetivos.  
+> El proyecto a futuro, busca mejorar la precisión de los sensores. Sin embargo, algunas de nuestras limitaciones son nuestro conocimiento en programación, la baja precisión del sensor de pulso cardíaco debido a su tamaño, y el tiempo que tenemos podría ser insuficiente para lograr todos nuestros objetivos.  
 
 ---
 
