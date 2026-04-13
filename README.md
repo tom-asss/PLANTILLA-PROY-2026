@@ -30,7 +30,7 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* 鈥
 
 ## 馃З Alcance del proyecto
 
-> El alcanze del proyecto a futuro es que que se pueda ir mejorando los sensores para que sean mas presisos, y  los limites son el conocimiento que tenemos ya que no sabemos de programacion, el sensor a ser peque帽o no es tan preciso y el Timpo nos queda muy corto.  
+> El proyecto a futuro, busca mejorar la precisi贸n de los sensores. Sin embargo,nuestras limitaci贸nes son nuestro conocimiento en programaci贸n, otro limite que tenemos es el sensor de pulso card铆aco debido a su tama帽o, no tiene una lata precisi贸n y el tiempo que tenemos podr铆a ser insuficiente para lograr todos nuestros objetivos.  
 
 ---
 
