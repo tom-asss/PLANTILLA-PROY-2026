@@ -82,7 +82,7 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 
 ## 📚 Bibliografía
 
-[Enlace](https://google.com)
+[Google Gemini API](https://ai.google.dev/gemini-api/docs)
 
 ---
 
