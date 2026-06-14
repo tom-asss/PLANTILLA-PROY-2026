@@ -72,7 +72,9 @@ Opción A — Automática
 - Descomprimir la carpeta
 - Hacer doble clic en `instalar_brune.bat`
 - Seguir las instrucciones en pantalla
-Opción B - Manual
+
+### Opción B - Manual
+
 1. Desde la carpeta de BRUNE, ejecutar la consola de comandos e instalar librerías necesarias ejecutando `pip install -r requirements.txt`
 2. Ejecutar python -c "import whisper; whisper.load_model('base')" 
 3. EJECUCIÓN
