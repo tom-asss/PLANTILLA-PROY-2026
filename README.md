@@ -62,9 +62,23 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 ## 🚀 Instrucciones de Instalacion y Uso
 
 
-1. **Clonar el repositorio:** `git clone ...`
-2. **Dependencias:** Listar qué librerías necesitan (ej: `pip install -r requirements.txt` o librerías de Arduino).
-3. **Ejecución:** Cómo se corre el código principal.
+1. REQUISITOS PREVIOS:
+ -Python 3.10 o superior
+- Micrófono conectado
+- Conexión a internet
+2. INSTALACIÓN
+Opción A — Automática
+1. DescargaR todos los archivos del repositorio (botón verde **Code → Download ZIP**)
+2. Descomprimir la carpeta
+3. Hacer doble clic en `instalar_brune.bat`
+4. Seguir las instrucciones en pantalla
+Opción B - Manual
+1. Desde la carpeta de BRUNE, ejecutar la consola de comandos e instalar librerías necesarias ejecutando `pip install -r requirements.txt`
+2. Ejecutar python -c "import whisper; whisper.load_model('base')" 
+3. EJECUCIÓN
+```bash
+python brune.py
+```
 
 ---
 
