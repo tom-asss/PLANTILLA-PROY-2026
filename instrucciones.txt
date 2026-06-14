@@ -1,0 +1,175 @@
+==============================================
+  BRUNE - Instrucciones de Instalación y Uso
+  Buen Rendimiento Universitario, No Excusas
+==============================================
+
+REQUISITOS PREVIOS
+------------------
+- Python 3.10 o superior instalado
+  → Windows: https://www.python.org/downloads/
+    IMPORTANTE: Marcar "Add Python to PATH" al instalar
+  → Mac: https://www.python.org/downloads/ o via Homebrew: brew install python
+  → Linux: sudo apt install python3 python3-pip
+- Conexión a internet (para Gemini IA)
+- Micrófono conectado
+
+
+═══════════════════════════════════════════════
+  INSTALACIÓN EN WINDOWS
+═══════════════════════════════════════════════
+
+OPCIÓN A — Automática (recomendada):
+  1. Haz doble clic en "instalar_brune.bat"
+  2. Espera que termine (puede tardar 3-5 min la primera vez)
+  3. Sigue las instrucciones en pantalla para la API key
+
+OPCIÓN B — Manual:
+  1. Abre la terminal (cmd) en la carpeta de BRUNE
+  2. Ejecuta: pip install -r requirements.txt
+  3. Descarga el modelo de voz:
+     python -c "import whisper; whisper.load_model('base')"
+  4. Configura tu API key (ver sección API KEY más abajo)
+
+
+═══════════════════════════════════════════════
+  INSTALACIÓN EN MAC
+═══════════════════════════════════════════════
+
+  1. Abre la Terminal (Aplicaciones → Utilidades → Terminal)
+  2. Navega a la carpeta de BRUNE:
+     cd ~/Desktop/BRUNE
+  3. Instala las librerías:
+     pip3 install -r requirements.txt
+  4. Si pyaudio falla en Mac, ejecuta primero:
+     brew install portaudio
+     pip3 install pyaudio
+  5. Descarga el modelo de voz:
+     python3 -c "import whisper; whisper.load_model('base')"
+  6. Configura tu API key (ver sección API KEY más abajo)
+  7. Ejecuta BRUNE:
+     python3 brune.py
+
+
+═══════════════════════════════════════════════
+  INSTALACIÓN EN LINUX
+═══════════════════════════════════════════════
+
+  1. Abre la terminal en la carpeta de BRUNE
+  2. Instala dependencias del sistema:
+     sudo apt install portaudio19-dev python3-tk
+  3. Instala las librerías:
+     pip3 install -r requirements.txt
+  4. Descarga el modelo de voz:
+     python3 -c "import whisper; whisper.load_model('base')"
+  5. Configura tu API key (ver sección API KEY más abajo)
+  6. Ejecuta BRUNE:
+     python3 brune.py
+
+
+═══════════════════════════════════════════════
+  CONFIGURAR API KEY DE GEMINI (todos los sistemas)
+═══════════════════════════════════════════════
+**El código viene con una API de Gemini incluida, pero en caso de usar una propia, sigue las siguientes instrucciones:**
+  1. Ve a https://aistudio.google.com
+  2. Inicia sesión con tu cuenta Google
+  3. Haz clic en "Get API key" → "Create API key"
+  4. Copia el código que aparece (empieza con "AIza...")
+  5. Abre "brune.py" con cualquier editor de texto
+  6. Busca la línea 25:
+        GEMINI_API_KEY = "PEGA_TU_API_KEY_AQUÍ"
+  7. Reemplaza PEGA_TU_API_KEY_AQUÍ por tu key
+     (mantén las comillas)
+  8. Guarda el archivo (Ctrl+S en Windows, Cmd+S en Mac)
+
+
+═══════════════════════════════════════════════
+  CÓMO EJECUTAR BRUNE
+═══════════════════════════════════════════════
+
+  Windows: Doble clic en brune.py (con Python instalado)
+           O desde terminal: python brune.py
+
+  Mac/Linux: Desde terminal: python3 brune.py
+
+
+═══════════════════════════════════════════════
+  COMANDOS DE VOZ DISPONIBLES
+═══════════════════════════════════════════════
+
+Ramos y material:
+  "abre física"           → Abre material de Física
+  "abre álgebra"          → Abre material de Álgebra
+  "abre cálculo"          → Abre material de Cálculo
+  "abre proyecto"         → Abre material de Proyecto Inicial
+
+Funciones:
+  "calculadora"           → Abre calculadora de notas
+  "chat"                  → Abre chat con Brune
+  "temporizador"          → Abre temporizador de estudio
+  "certámenes"            → Abre evaluaciones y fechas
+  "conversor"             → Abre conversor de unidades
+  "configuración"         → Abre configuración personal
+
+Sitios web:
+  "abre YouTube"          → Abre YouTube
+  "abre Spotify"          → Abre Spotify
+  "abre Google"           → Abre Google
+  "abre Gmail"            → Abre Gmail
+  "abre Drive"            → Abre Google Drive
+  "abre Wikipedia"        → Abre Wikipedia
+  "abre el Aula"          → Abre Aula USM
+
+Cualquier otra consulta → Brune responde con IA
+
+
+═══════════════════════════════════════════════
+  PERSONALIZACIÓN
+═══════════════════════════════════════════════
+
+  → Haz clic en "⚙️ playlist y links" en la pantalla principal
+  → Puedes cambiar tu playlist de Spotify y los links
+    que se abren automáticamente al estudiar
+
+
+═══════════════════════════════════════════════
+  ARCHIVOS QUE GENERA BRUNE (no subir a GitHub)
+═══════════════════════════════════════════════
+
+  brune_config.json     → Tu playlist y links personalizados
+  brune_ramos.json      → Tus ramos personalizados
+  certamenes.json       → Tus fechas de evaluaciones
+  brune_historial.json  → Tu historial de estudio
+
+
+═══════════════════════════════════════════════
+  PROBLEMAS FRECUENTES
+═══════════════════════════════════════════════
+
+"No module named X"
+  → Ejecuta: pip install -r requirements.txt
+
+"Whisper no disponible"
+  → Ejecuta: python -c "import whisper; whisper.load_model('base')"
+
+"No conecta con la IA"
+  → Verifica tu API key en la línea 25 de brune.py
+  → Verifica tu conexión a internet
+
+"No escucha el micrófono"
+  → Verifica que tu micrófono esté conectado
+  → Windows: Configuración → Sistema → Sonido → Entrada
+  → Mac: Preferencias → Sonido → Entrada
+
+"pyaudio no instala en Mac"
+  → Ejecuta primero: brew install portaudio
+  → Luego: pip3 install pyaudio
+
+"tkinter no encontrado en Linux"
+  → Ejecuta: sudo apt install python3-tk
+
+
+==============================================
+  Desarrollado por Antonella Zavala,
+  Fernanda Cisternas y Tomás Farías
+  USM 2026 — Proyecto Inicial IWG400
+==============================================

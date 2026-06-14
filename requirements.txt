@@ -1,0 +1,6 @@
+google-genai
+pyttsx3
+pyaudio
+sounddevice
+openai-whisper
+psutil
