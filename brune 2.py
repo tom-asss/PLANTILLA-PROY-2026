@@ -25,7 +25,7 @@ CARPETA_DATOS.mkdir(parents=True, exist_ok=True)
 # CONFIGURACIÓN GEMINI
 # Pega tu API key de aistudio.google.com aquí:
 # ==========================================
-GEMINI_API_KEY = "AIzaSyC1m1ItiKsieoVS8daQsutN5I4OcvX_sQ0"
+GEMINI_API_KEY = "PEGA_TU_API_KEY_AQUI"
 cliente_gemini = genai.Client(api_key=GEMINI_API_KEY)
 MODELO_GEMINI = "gemini-2.5-flash"
 
