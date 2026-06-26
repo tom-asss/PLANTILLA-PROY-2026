@@ -91,7 +91,7 @@ python brune.py
 
 ## 📅 Cronograma de trabajo
 
-[Carta Gantt](https://google.com](https://docs.google.com/spreadsheets/d/1q-dBlOUje1763kOuwquhEZ8v435y_sau/edit?usp=sharing&ouid=104493038817783717056&rtpof=true&sd=true)
+[Carta Gantt](https://docs.google.com/spreadsheets/d/1q-dBlOUje1763kOuwquhEZ8v435y_sau/edit?usp=sharing&ouid=104493038817783717056&rtpof=true&sd=true)
 
 ---
 
