@@ -20,7 +20,7 @@ REQUISITOS PREVIOS
 
 OPCIÓN A — Automática (recomendada):
   1. Haz doble clic en "instalar_brune.bat"
-  2. Espera que termine (puede tardar 3-5 min la primera vez)
+  2. Espera que termine
   3. Sigue las instrucciones en pantalla para la API key
 
 OPCIÓN B — Manual:
@@ -69,7 +69,7 @@ OPCIÓN B — Manual:
 ═══════════════════════════════════════════════
   CONFIGURAR API KEY DE GEMINI (todos los sistemas)
 ═══════════════════════════════════════════════
-**El código viene con una API de Gemini incluida, pero en caso de usar una propia, sigue las siguientes instrucciones:**
+
   1. Ve a https://aistudio.google.com
   2. Inicia sesión con tu cuenta Google
   3. Haz clic en "Get API key" → "Create API key"
@@ -132,7 +132,7 @@ Cualquier otra consulta → Brune responde con IA
 
 
 ═══════════════════════════════════════════════
-  ARCHIVOS QUE GENERA BRUNE (no subir a GitHub)
+  ARCHIVOS QUE GENERA BRUNE 
 ═══════════════════════════════════════════════
 
   brune_config.json     → Tu playlist y links personalizados
@@ -168,8 +168,3 @@ Cualquier otra consulta → Brune responde con IA
   → Ejecuta: sudo apt install python3-tk
 
 
-==============================================
-  Desarrollado por Antonella Zavala,
-  Fernanda Cisternas y Tomás Farías
-  USM 2026 — Proyecto Inicial IWG400
-==============================================
