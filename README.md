@@ -33,7 +33,7 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 
 ## 🧩 Alcance del proyecto
 
-> El proyecto tiene ciertas limitaciones. El programa depende de tene Python localmente instalado. Se pudo haber trabajado en la generación de un ejecutable .exe para no depender de esto. Además, el programa está configurado únicamente para los ramos del primer semestre de 2026, de la malla actual de Ingeniería Civil Telemática, lo que es un limitante en el caso que cualquier otra persona desee usar el programa con sus propios ramos.  
+> El proyecto tiene ciertas limitaciones. El programa depende de tener Python instalado localmente. Se pudo haber trabajado en la generación de un ejecutable .exe para no depender de esto. Además, el programa está configurado únicamente para los ramos del primer semestre de 2026, de la malla actual de Ingeniería Civil Telemática, lo que es un limitante en el caso que cualquier otra persona desee usar el programa con sus propios ramos.  
 
 ---
 
@@ -79,7 +79,7 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 1. Desde la carpeta de BRUNE, ejecutar la consola de comandos e instalar librerías necesarias ejecutando `pip install -r requirements.txt`
 2. Ejecutar `python -c "import whisper; whisper.load_model('base')"`
 
-### 3. EJECUCIÓN
+### 2. EJECUCIÓN
 ```bash
 python brune.py
 ```
@@ -97,10 +97,10 @@ python brune.py
 
 ## 📚 Bibliografía
 
-[Google Gemini API](https://ai.google.dev/gemini-api/docs)
+- [Google Gemini API](https://ai.google.dev/gemini-api/docs) 
+- [OpenAI Whisper](https://openai.com/index/whisper/) 
+- [Python tkinter](https://docs.python.org/3/library/tkinter.html) 
+- [pyttsx3](https://pypi.org/project/pyttsx3/) 
+- [sounddevice](https://python-sounddevice.readthedocs.io/)
 
 ---
-
-## 📌 Notas adicionales
-
-> *Espacio para dejar cualquier comentario útil, como pendientes, acuerdos del grupo, consideraciones especiales, etc.*
