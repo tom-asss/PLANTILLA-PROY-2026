@@ -1,7 +1,12 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 import webbrowser
-import pyttsx3
+try:
+    import pyttsx3
+    VOZ_DISPONIBLE = True
+except ImportError:
+    VOZ_DISPONIBLE = False
+    print("[BRUNE] pyttsx3 no disponible - BRUNE funcionará sin voz")
 import threading
 import unicodedata
 import whisper as _whisper
@@ -25,7 +30,7 @@ CARPETA_DATOS.mkdir(parents=True, exist_ok=True)
 # CONFIGURACIÓN GEMINI
 # Pega tu API key de aistudio.google.com aquí:
 # ==========================================
-GEMINI_API_KEY = "PEGA_TU_API_KEY_AQUI"
+GEMINI_API_KEY = "PEGA_TU_API_KEY_AQUÍ"
 cliente_gemini = genai.Client(api_key=GEMINI_API_KEY)
 MODELO_GEMINI = "gemini-2.5-flash"
 
@@ -40,6 +45,8 @@ entorno_abierto_sesion = False # si ya se abrieron spotify y links de estudio
 # 1. FUNCIONES DE VOZ DE BRUNE
 # ==========================================
 def decir_texto(texto):
+    if not VOZ_DISPONIBLE:
+        return
     try:
         motor_voz = pyttsx3.init()
         motor_voz.setProperty('rate', 150)
@@ -49,6 +56,8 @@ def decir_texto(texto):
         print(f"[BRUNE] Error de voz: {e}")
 
 def hablar_brune(texto):
+    if not VOZ_DISPONIBLE:
+        return
     hilo_voz = threading.Thread(target=decir_texto, args=(texto,), daemon=True)
     hilo_voz.start()
 
