@@ -1,6 +1,6 @@
 google-genai
-pyttsx3
+pyttsx3==2.90
 pyaudio
 sounddevice
 openai-whisper
-psutil
+pywin32
