@@ -12,7 +12,7 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 
 ## 📝 Descripción breve del proyecto
 
-> *B.R.U.N.E:(Buen Rendimiento Académico, No Excusas), un programa el cual te ayudará a estudiar sin reestricciones,
+> *B.R.U.N.E:(Buen Rendimiento Académico, No Excusas), un programa el cual te ayudará a estudiar sin restricciones
 > .*
 
 ---
@@ -20,54 +20,55 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 ## 🎯 Objetivos
 
 - Objetivo general:
-  Creación de un programa que permita bloquear ventanas y programas a la hora de estudiar, además de monitorear pulso cardíaco, de estrés y somnolencia.
+  Desarrollar un asistente de estudio personal controlado por voz e inteligencia artificial que permita optimizar las sesiones de estudio y el rendimiento académico.
 - Objetivos específicos:
-  -Creación de software que bloquee ventanas y programas.
-  -Conexión de sensores de pulso cardíaco y sensor de respuesta galvánica de la piel, que midan niveles de estrés y somnolencia. Estará conectado al programa y notificará en caso de detectar niveles alterados.
-  -Implementar monitoreo de somnolencia a través de una webcam, que en caso de percibir que los ojos se estén cerrando, mande una señal de alerta para despertar al usuario.
-  -Vinculación del software a distintas páginas y aplicaciones asignadas por el usuario.
+   - Implementar reconocimiento de voz local mediante Whisper de OpenAI.
+  - Integrar inteligencia artificial mediante la API de Gemini para responder preguntas y ejecutar acciones.
+  - Desarrollar una calculadora de notas con indique cuánto necesitas para aprobar.
+  - Crear un sistema de gestión de evaluaciones con cuenta regresiva y alertas.
+  - Implementar un temporizador de estudio con historial de sesiones.
+  - Vincular automáticamente el material de estudio de cada ramo (Google Drive, Almacén Camello, Aula USM) al activar el modo de estudio.
 
 ---
 
 ## 🧩 Alcance del proyecto
 
-> El proyecto a futuro, busca mejorar la precisión de los sensores. Sin embargo, algunas de nuestras limitaciones son nuestro conocimiento en programación, la baja precisión del sensor de pulso cardíaco debido a su tamaño, y el tiempo que tenemos podría ser insuficiente para lograr todos nuestros objetivos.  
+> El proyecto tiene ciertas limitaciones. El programa depende de tene Python localmente instalado. Se pudo haber trabajado en la generación de un ejecutable .exe para no depender de esto. Además, el programa está configurado únicamente para los ramos del primer semestre de 2026, de la malla actual de Ingeniería Civil Telemática, lo que es un limitante en el caso que cualquier otra persona desee usar el programa con sus propios ramos.  
 
 ---
 
 ## 🛠️ Tecnologías y herramientas utilizadas
 
-- Lenguaje(s) de programación:
-  - C++
-- Microcontroladores
-  - Arduino UNO Q
-  - Sensores de pulso cardíaco, sensor de respuesta galvánica de la piel, buzzer.
-
+- **Lenguaje(s) de programación:**  Python 3.12
+- **Interfaz gráfica:** Tkinter
+- **Reconocimiento de voz:** Whisper (OpenAI) — modelo base, corre localmente
+- **Inteligencia artificial:** Gemini API (Google) — tier gratuito
+- **Síntesis de voz:** pyttsx3
+- **Captura de audio:** sounddevice + numpy
+- **Persistencia de datos:** JSON
 ---
 
 ## 🗂️ Estructura del repositorio
 
 ```
-/PROY-2026-GRUPOX
+/PLANTILLA-PROY-2026
 │
-├── docs/               # Documentación general y reportes
-├── src/                # Código fuente del proyecto
-├── tests/              # Casos de prueba
-├── assets/             # Imágenes, diagramas, etc.
-└── README.md           # Este archivo
+├── brune.py              # Código principal de BRUNE
+├── instalar_brune.bat    # Instalador automático para Windows
+├── requirements.txt      # Lista de librerías necesarias
+├── instrucciones.txt     # Guía detallada de instalación y uso
+└── README.md             # Este archivo
+
 ```
 
 ---
 
 ## 🚀 Instrucciones de Instalacion y Uso
 
+## 1. INSTALACIÓN
 
-## 1. REQUISITOS PREVIOS:
- -Python 3.10 o superior
-- Micrófono conectado
-- Conexión a internet
-## 2. INSTALACIÓN
 ### Opción A — Automática
+
 - Descargar todos los archivos del repositorio (botón verde **Code → Download ZIP**)
 - Descomprimir la carpeta
 - Hacer doble clic en `instalar_brune.bat`
@@ -82,15 +83,11 @@ Repositorio del grupo 1 para el proyecto del ramo *Proyecto Inicial (IWG400)* �
 ```bash
 python brune.py
 ```
+**Instrucciones de instalación mas detalladas en el archivo `instrucciones.txt`**
 
 ---
 
-## 📐 Diseño del Sistema
-![Diagrama de Conexiones](./assets/diagrama_conexiones.png)
 
-*Explicacion grafica de como es la conexion entre el microcontrolador y los sensores*
-
----
 
 ## 📅 Cronograma de trabajo
 
